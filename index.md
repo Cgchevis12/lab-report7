@@ -76,7 +76,7 @@ After the bug fixed through the nano txt editor, run the junit tester which show
 
 ![imag](K.png)
      
-After the bug fixed in the ieng6, using git add, git commit and git push to update the code file on the github
+After the bug fixed in the ieng6, using git add, git commit and git push to update the code file on the github.
 
       keys：
         git add ListExamples
