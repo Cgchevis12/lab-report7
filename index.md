@@ -22,6 +22,7 @@ keys:
  ```
 
 3.Run the tests, demonstrating that they fail:
+
     ![imag](D.png)
    
 
@@ -40,6 +41,7 @@ The javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamples.java
       ![imag](E.png)
      
       ![imag](F.png)
+      
       ```
       keys:
       nano ListExamples
@@ -51,12 +53,11 @@ The javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamples.java
       Ctrl+o
       Ctrl+x
       ```
+      5.Run the tests, demonstrating that they now succeed
       
-5.Run the tests, demonstrating that they now succeed
-    ![imag](H.png)
-       
 
-       
+    ![imag](H.png)
+
     Keys: 
     <up><up><enter>
     <up><up><up><enter>
@@ -64,6 +65,7 @@ The javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamples.java
 The javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamples.java command was 4 up in the search history, so I used up arrow to access it. Then the java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamples command was 4 up in the history, so I accessed and ran it in the same way.
    
 6. Commit and push the resulting change to your Github account (you can pick any commit message!):
+     
 ![imag](I.png)
 
 ![imag](J.png)
