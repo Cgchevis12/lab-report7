@@ -7,8 +7,10 @@ keys:
 <Ctrl-C> User name
 <Ctrl-v> User name to terminal
 <enter>
-```
+
+//summarize:
 Log into ieng6 account by using the user name without password because it's already authorized as the SSH key
+```
 
 2.Clone your fork of the repository from your Github account
  
@@ -20,8 +22,11 @@ Log into ieng6 account by using the user name without password because it's alre
   git clone https://github.com/ucsd-cse15l-w23/lab7.git 
   <Ctrl-v>
   <enter>
+  
+ //summarize:
+  Clone github repository to ieng6 through the command git clone + ssh code
  ```
- Clone github repository to ieng6 through the command git clone + ssh code
+
  
  3.Run the tests, demonstrating that they fail:
 
@@ -32,8 +37,10 @@ Log into ieng6 account by using the user name without password because it's alre
     Keys: 
     <up><up><up><up><enter>
     <up><up><up><up><up><enter>
+ //summarize:
+ The javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamples.java command was 4 up in the search history, so I used up arrow to access it. Then the java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamples command was 4 up in the history, so I accessed and ran it in the same way.
 ```
-The javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamples.java command was 4 up in the search history, so I used up arrow to access it. Then the java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamples command was 4 up in the history, so I accessed and ran it in the same way.
+
 
 4. Edit the code file to fix the failing test
      
@@ -53,8 +60,11 @@ The javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamples.java
       numerical type 2
       Ctrl+o
       Ctrl+x
+      
+      summarize:
+            After entering in the nano txt editor, edit the file through commands and then save the change
       ```
-      After entering in the nano txt editor, edit the file through commands and then save the change
+
       
    5.Run the tests, demonstrating that they now succeed
       
@@ -64,9 +74,12 @@ The javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamples.java
     Keys: 
     <up><up><enter>
     <up><up><up><enter>
- ```   
-The javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamples.java command was 4 up in the search history, so I used up arrow to access it. Then the java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamples command was 4 up in the history, so I accessed and ran it in the same way.
+    
+    //summarize:
+    The javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamples.java command was 4 up in the search history, so I used up arrow to access it. Then the  java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamples command was 4 up in the history, so I accessed and ran it in the same way.
 After the bug fixed through the nano txt editor, run the junit tester which shows run without bug
+ ```   
+
    
 6. Commit and push the resulting change to your Github account (you can pick any commit message!):
      
@@ -76,7 +89,7 @@ After the bug fixed through the nano txt editor, run the junit tester which show
 
 ![imag](K.png)
      
-After the bug fixed in the ieng6, using git add, git commit and git push to update the code file on the github.
+
 
       keys：
         git add ListExamples
@@ -84,6 +97,8 @@ After the bug fixed in the ieng6, using git add, git commit and git push to upda
         :ql
         git push
 
+      //summarize:
+      After the bug fixed in the ieng6, using git add, git commit and git push to update the code file on the github.
       
       markdown reference:
         https://ucsd-cse15l-w23.github.io/week/week7/#baseline
