@@ -20,11 +20,8 @@ keys:
   <Ctrl-v>
   <enter>
  ```
-
-3.Run the tests, demonstrating that they fail:
-
+ 3.Run the tests, demonstrating that they fail:
     ![imag](D.png)
-   
 
 ```
     Keys: 
