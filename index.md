@@ -2,10 +2,12 @@
 
 ![imag](A.png)
 
+```
 keys:
-(<Ctrl-C>) User name
-(<Ctrl-v>) User name to terminal
-(<enter>)
+<Ctrl-C> User name
+<Ctrl-v> User name to terminal
+<enter>
+```
 
 2.Clone your fork of the repository from your Github account
  
