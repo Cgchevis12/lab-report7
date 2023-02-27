@@ -21,7 +21,9 @@ keys:
   <enter>
  ```
  3.Run the tests, demonstrating that they fail:
-    ![imag](D.png)
+
+  ![imag](D.png)
+
 
 ```
     Keys: 
@@ -50,7 +52,8 @@ The javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamples.java
       Ctrl+o
       Ctrl+x
       ```
-      5.Run the tests, demonstrating that they now succeed
+      
+   5.Run the tests, demonstrating that they now succeed
       
 
     ![imag](H.png)
