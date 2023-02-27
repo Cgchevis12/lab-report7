@@ -73,13 +73,13 @@ The javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ListExamples.java
 ![imag](K.png)
      
 
-    ```
+
       keys：
         git add ListExamples
         git commit -m"updates"
         :ql
         git push
-    ```
+
       
       markdown reference:
         https://ucsd-cse15l-w23.github.io/week/week7/#baseline
